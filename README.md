@@ -1,9 +1,11 @@
 # music-splicer
 A Python command-line script to splice an audio file into smaller chunks with user-specified timestamps
 
-HOW TO USE THE ThINGY
+How to use:
 
-1. have python installed, i think
-2. python main.py [timestamps filename] [audio filename]
-3. more features to come soon[tm]
-4. i don't know what im doing if it doesn't work then good luck fixing it cause i probably won't :3
+1. Have python installed.
+2. Put the timestamps in the form "hh\:mm\:ss [name]", each on a separate line.
+3. Add an extra line with the end time of the final chunk.
+4. Run the command `python main.py [timestamps filename] [audio filename]`.
+5. The program outputs each chunk starting at its timestamp and ending at the one in the next line.
+6. If you wish to have a chunk end at a different time, you can add a dummy timestamp for the time you wish to use.
