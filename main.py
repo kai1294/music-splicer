@@ -12,7 +12,6 @@ def splice(name, start, end):
     command.execute()
 
 def main():
-    print("note: due to me having 0 idea what i'm doing, please add an extra timestamp at the end of your file with the length of the file")
     if len(argv) < 3:
         print("Please specify timestamps file and audio file")
         return
